@@ -34,7 +34,7 @@ namespace BlackJack
 
         private void btn_insc_Click(object sender, RoutedEventArgs e)
         {
-
         }
+
     }
 }
