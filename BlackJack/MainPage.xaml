@@ -8,6 +8,12 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Margin="184,325,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="loginBox" HorizontalAlignment="Left" Margin="177,288,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txt_log" HorizontalAlignment="Left" Margin="67,288,0,0" TextWrapping="Wrap" Text="user" VerticalAlignment="Top"/>
+        <TextBlock x:Name="txt_pwd" HorizontalAlignment="Left" Margin="67,357,0,0" TextWrapping="Wrap" Text="password" VerticalAlignment="Top"/>
+        <Button x:Name="btn_co" Content="connexion" HorizontalAlignment="Left" Margin="184,377,0,0" VerticalAlignment="Top" Click="btn_co_Click"/>
+        <Button x:Name="btn_insc" Content="inscription" HorizontalAlignment="Left" Margin="184,414,0,0" VerticalAlignment="Top" Click="btn_insc_Click"/>
 
     </Grid>
 </Page>

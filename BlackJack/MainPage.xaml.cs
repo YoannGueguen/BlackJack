@@ -26,5 +26,15 @@ namespace BlackJack
         {
             this.InitializeComponent();
         }
+
+        private void btn_co_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btn_insc_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
