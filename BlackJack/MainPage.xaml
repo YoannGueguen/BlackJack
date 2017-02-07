@@ -17,6 +17,6 @@
         <TextBlock x:Name="txt_pwd" HorizontalAlignment="Left" Margin="67,139,0,0" TextWrapping="Wrap" Text="password" VerticalAlignment="Top" Height="17"/>
         <Button x:Name="btn_co" Content="connexion" HorizontalAlignment="Left" Margin="184,156,0,0" VerticalAlignment="Top" Click="btn_co_Click" Height="50" Width="116"/>
         <Button x:Name="btn_insc" Content="inscription" HorizontalAlignment="Left" Margin="184,267,0,0" VerticalAlignment="Top" Click="btn_insc_Click" Height="38" Width="99"/>
-
+        <TextBlock x:Name="Bouh"></TextBlock>
     </Grid>
 </Page>
