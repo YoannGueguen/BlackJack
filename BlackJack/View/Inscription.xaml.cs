@@ -8,20 +8,7 @@ using Windows.UI.Xaml.Controls;
 
 namespace BlackJack.View
 {
-    class Inscription
+    public sealed partial class Inscription : Page
     {
-        TextBox login_box;
-
-        private void cancel_btn_Click(object sender, RoutedEventArgs e)
-        {
-          
-        }
-        private void insc_btn_Click(object sender, RoutedEventArgs e)
-        {
-            if (login_box.Text = "")
-            {
-
-            }
-        }
     }
 }
